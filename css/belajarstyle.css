@@ -1,0 +1,14 @@
+h1	{color: #ff8080}
+
+h2	{color: #6699ff}
+
+#nav	{
+	border: 5px dotted red
+}
+
+
+#nav a {text-decoration: none; color:#ff9966;
+}
+
+
+.penjelasan {font-family: Arial; font-variant: small-caps;}
