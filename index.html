@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<title>Rialfi Putri Nur Harfilani</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Rialfi BLOGLIFE</b></h1>
+    <h6>Welcome to the blog of <span class="w3-tag">Putri's world</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="img/putri.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-black">Rialfi Putri</h1>
+      <h1 class="w3-jumbo w3-text-black w3-hide-small"><b>PUT'S BLOG</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>ABOUT ME</h3>
+          <h5><span class="w3-opacity">Biodata, February 2018</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="/w3images/girl_hat.jpg" alt="" style="width:100%" class="w3-padding-16">
+          <p><strong>Hello guyss, </strong>saya dsini akan menjelaskan tentang biodata saya, nahh simak baik-baik yaa....Nama saya Rialfi Putri Nur Harfilani biasa di panggil Putri atau Rialfi, tapi sih paling sering Putri. Saya lahir di Jakarta pada tanggal 28 Juni 2001. Sekarang umur saya 16 tahun. Saya adalah anak pertama dari 3 bersaudara,tetapi adik saya yg terakhir sudah meninggal sejak umur 7 bulan, jadi sekrang saya hanya 2 bersaudara. Saya sekarang bersekolah di SMK-SMAK Bogor kelas 11. Saya tinggal di Perumahan Permata Mansion Cluster Sapphire Blok SA2 no 12, Depok. Karena sekolah saya di Bogor, sekarang saya tinggal di Ciheuleut (Kos). Jadi, setiap seminggu sekali jika saya ada waktu luang saya akan pulang ke rumah saya di Depok.
+            </p>
+          <p></p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/kuki1.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jungkookie <span class="w3-opacity w3-medium">February 2018, 6:32 PM</span></h4>
+                <p>Annyeong putriii...</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>MY HOBBY'S</h3>
+          <h5>All about my hobby's, <span class="w3-opacity">February 2018</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/putri baca.jpg" " alt="" style="width:100%" class="w3-padding-16">
+           <img src="img/putri manga.jpg" " alt="" style="width:100%" class="w3-padding-16">
+          <p><strong></strong> Sehabis biodata sekarang kita lanjut ke hobi.</p>
+          <p>Hobi saya itu lumayan banyak tergantung mood saya, jika moodnya lagi bagus dan lagi punya waktu luang kadang suka menggambar manga atau anime, nahh kalau lagi bosen kadang lebih suka menonton anime atau drama korea, membaca cerita fiksi, membaca komik atau webtoon, dan mendengarkan musik. Saat SMP dulu saya sering sekali menggambar manga setiap waktu senggang, tetapi semenjak bersekolah di SMAKBO saya jarang menggambar karena menggambar itu memerlukan mood yang baik dan waktu yg lumayan banyak. Anime atau drama yang suka bergenre fantasy, action, mystery, adventure, dan sci-fi. Sedangkan, untuk drama korea genre yang paling saya suka adalah fiction. Saya menyukai musik kpop, jpop atau ost anime, dan lagu-lagu Taylor Swift.
+            </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/tay1.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Tay Swift <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>Udah lama ya ga ketemu..</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/v.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Kim V <span class="w3-opacity w3-medium">February 2018, 9:12 PM</span></h4>
+                <p>Saranghae putri!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>ABOUT MY HOBBY'S</h3>
+          <h5>Description about my hobby, <span class="w3-opacity">April 7, 2016</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/putri music1.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong></strong> </p>
+          <p>Idola saya adalah Taylor Swift dan BTS (boygroup korea). Taylor Swift merupakan penyanyi asal Amerika Serikat yg terkenal dan semua orang pasti tahu, saya menyukai dia karena dia pandai membuat lagu sendiri yang terinspirasi dari kehidupan dia di dalam lirk lagu tersebut, suaranya bagus, dan lagu-lagunya selalu enak di dengar. BTS merupakan boygroup yg terdiri dari 7 orang, mereka bernama Kim Namjoon (RM), Kim Seokjin (Jin), Min Yoongi (Suga), Jung Hoseok (J-Hope), Park Jimin (Jimin), Kim Taehyung (V), dan Jeon Jeonggeok (Jungkook) dari Big Hit Entertainment asal Korea Selatan, saya menyukai mereka pastinya karena lagu mereka, lalu beberapa dari mereka juga suka membuat lagu mereka sendiri dan yang lainnya juga kadang ikut serta dalam membuat lagu, kemudian dance mereka juga selalu keren, dan juga yg pasti suara mereka bagus. Nahh member BTS yang paling saya suka adalah Jungkook karena, suaranya bagus dan saya suka, lalu yang pasti dia ganteng hehehe. 
+
+
+            </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/chim.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jiminie <span class="w3-opacity w3-medium">Fevruary, 2018, 7:22 PM</span></h4>
+                <p>Halloo putri, kapan mau ke korea? ditunggu yaa..</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/rm.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>RM <span class="w3-opacity w3-medium">February, 2018, 10:32 PM</span></h4>
+                <p>Nabung dulu sana buat nonton konser kita (BTS).</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/suga.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Min Suga <span class="w3-opacity w3-medium">February, 2018, 9:12 PM</span></h4>
+                <p>Beli album aja dulu!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="img/profil.jpg" alt="" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>Rialfi Putri N.H</h4>
+          <p>Ini adalah website/blog dari orang yang bernama Putri atau Rialfi atau terserahlah kalian mau manggil apa asalkan ga aneh-aneh. .</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Popular Posts</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/sao.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Anime</span>
+            <br>
+            <span>Sword Art Online</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/tay.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Taylor Swift</span>
+            <br>
+            <span>Album Reputation</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/drakor.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Drama Korea</span>
+            <br>
+            <span>Strong Woman Do Bong Soon</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/bts1.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">BTS</span>
+            <br>
+            <span>Album Love Yourself: Her</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertise</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle"></span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Anime</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Taykor Swift</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">BTS</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Drama Korea</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Rialfi</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Putri</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jepang</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Korea</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Amerika</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Indonesia</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="/w3images/jeans.jpg" alt="Allah SWT" style="width:100%"></p>
+            <p><img src="/w3images/team1.jpg" alt="Orang Tua" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="/w3images/avatar_hat.jpg" alt="Adik" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="/w3images/team4.jpg" alt="Teman-teman" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Jangan lupa yaa sering-sering mampir kesini, kalau bisa kasih tau temen kalian, Salam dari Putri bye..</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function likeFunction(x) {
+    x.style.fontWeight = "bold";
+    x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
